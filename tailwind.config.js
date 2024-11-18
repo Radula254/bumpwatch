@@ -7,10 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        wheat: '#F5DEB3',
+        purple: {
+          700: '#6b21a8',
+        },
+        blue: {
+          700: '#0056b3',
+        },
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('https://www.kernodle.com/wp-content/uploads/2020/01/Kernodle_High-Risk-pregnancy.jpeg')",
+        'about-pattern': "url('background2.jpeg')",
       },
     },
   },
